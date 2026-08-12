@@ -1,0 +1,26 @@
+cbt-nodejs/
+├── package.json
+├── server.js
+├── config/
+│   └── database.js
+├── models/
+│   └── index.js          # All models in one place for simplicity
+├── routes/
+│   ├── auth.js
+│   ├── exam.js
+│   └── admin.js
+├── middleware/
+│   └── auth.js
+├── views/
+│   ├── layout.ejs
+│   ├── login.ejs
+│   ├── dashboard.ejs
+│   ├── exam.ejs
+│   ├── result.ejs
+│   └── admin/
+│       └── dashboard.ejs
+├── public/
+│   ├── css/style.css
+│   └── js/exam.js
+└── scripts/
+    └── init-db.js
