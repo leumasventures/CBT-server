@@ -1,7 +1,10 @@
-require('dotenv').config();
+const http = require('http');
+const path = require('path');
+const fs = require('fs');
+const fsPromise = require('fs').promise
 const express = require('express');
 const session = require('express-session');
-const path = require('path');
+
 const methodOverride = require('method-override');
 
 const authRoutes = require('./routes/auth');
